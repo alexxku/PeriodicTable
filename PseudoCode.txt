@@ -1,0 +1,7 @@
+						Periodic Table
+					    Display Periodic Table 
+				     Periodic Table will be interactive
+				   Design the layout of the periodic table
+				             Label the elements	
+				    Selecting the element would display info
+			     The info for the element would be referenced with links

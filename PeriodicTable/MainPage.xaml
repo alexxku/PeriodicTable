@@ -1,0 +1,210 @@
+﻿<Page
+    x:Class="PeriodicTable.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PeriodicTable"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.ColumnSpan="8" Grid.Column="4" HorizontalAlignment="Left" Text="Periodic Table" TextWrapping="Wrap" VerticalAlignment="Center" Height="72" Width="458" FontSize="48" Margin="75.333,0,0,0"/>
+
+
+        <Button x:Name="Hydrogen" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="H" FontSize="30" BorderBrush="Black" Click="Hydrogen_Click" />
+        <Button x:Name="Lithium" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Li" FontSize="30" BorderBrush="Black" Click="Lithium_Click"/>
+        <Button x:Name="Sodium" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Na" FontSize="30" BorderBrush="Black" Click="Sodium_Click"/>
+        <Button x:Name="Potassium" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="K" FontSize="30" BorderBrush="Black" Click="Potassium_Click"/>
+        <Button x:Name="Rubidium" Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Rb" FontSize="30" BorderBrush="Black" Click="Rubidium_Click"/>
+        <Button x:Name="Caesium" Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cs" FontSize="30" BorderBrush="Black" Click="Caesium_Click"/>
+        <Button x:Name="Francium" Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Fr" FontSize="30" BorderBrush="Black" Click="Francium_Click"/>
+
+        <Button x:Name="Beryllium" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Be" FontSize="30" BorderBrush="Black" Click="Beryllium_Click"/>
+        <Button x:Name="Magnesium" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Mg" FontSize="25" BorderBrush="Black" Click="Magnesium_Click"/>
+        <Button x:Name="Calcium" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ca" FontSize="30" BorderBrush="Black" Click="Calcium_Click"/>
+        <Button x:Name="Strontium" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sr" FontSize="30" BorderBrush="Black" Click="Strontium_Click"/>
+        <Button x:Name="Barium" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ba" FontSize="30" BorderBrush="Black" Click="Barium_Click"/>
+        <Button x:Name="Radium" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ra" FontSize="30" BorderBrush="Black" Click="Radium_Click"/>
+
+        <Rectangle Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Fill="Red"/>
+        <Rectangle Grid.Column="2" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Fill="Blue"/>
+
+
+        <Button x:Name="Scandium" Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sc" FontSize="30" BorderBrush="Black" Click="Scandium_Click"/>
+        <Button x:Name="Yttrium" Grid.Column="3" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Y" FontSize="30" BorderBrush="Black" Click="Yttrium_Click"/>
+        <Button x:Name="Lutetium" Grid.Column="3" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Lu" FontSize="30" BorderBrush="Black" Click="Lutetium_Click"/>
+        <Button x:Name="Lawrencium" Grid.Column="3" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Lr" FontSize="30" BorderBrush="Black" Click="Lawrencium_Click"/>
+        <Button x:Name="Lanthanum" Grid.Column="3" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="La" FontSize="30" BorderBrush="Red" Click="Lanthanum_Click" />
+        <Button x:Name="Actinium" Grid.Column="3" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ac" FontSize="30" BorderBrush="Blue" Click="Actinium_Click"/>
+
+
+        <Button x:Name="Titanium" Grid.Column="4" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ti" FontSize="30" BorderBrush="Black" Click="Titanium_Click"/>
+        <Button x:Name="Zicronium" Grid.Column="4" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Zr" FontSize="30" BorderBrush="Black" Click="Zicronium_Click"/>
+        <Button x:Name="Hafnium" Grid.Column="4" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Hf" FontSize="30" BorderBrush="Black" Click="Hafnium_Click"/>
+        <Button x:Name="Rutherfordium" Grid.Column="4" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Rf" FontSize="30" BorderBrush="Black" Click="Rutherfordium_Click"/>
+        <Button x:Name="Cerium" Grid.Column="4" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ce" FontSize="30" BorderBrush="Red" Click="Cerium_Click"/>
+        <Button x:Name="Thorium" Grid.Column="4" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Th" FontSize="30" BorderBrush="Blue" Click="Thorium_Click"/>
+
+        <Button x:Name="Vanadium" Grid.Column="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="V" FontSize="30" BorderBrush="Black" Click="Vanadium_Click"/>
+        <Button x:Name="Niobium" Grid.Column="5" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Nb" FontSize="25" BorderBrush="Black" Click="Niobium_Click"/>
+        <Button x:Name="Tantalum" Grid.Column="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ta" FontSize="30" BorderBrush="Black" Click="Tantalum_Click"/>
+        <Button x:Name="Dubnium" Grid.Column="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Db" FontSize="25" BorderBrush="Black" Click="Dubnium_Click"/>
+        <Button x:Name="Praseodymium" Grid.Column="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pr" FontSize="30" BorderBrush="Red" Click="Praseodymium_Click"/>
+        <Button x:Name="Protactinium" Grid.Column="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pa" FontSize="30" BorderBrush="Blue" Click="Protactinium_Click"/>
+
+        <Button x:Name="Chromium" Grid.Column="6" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cr" FontSize="30" BorderBrush="Black" Click="Chromium_Click"/>
+        <Button x:Name="Molybdenum" Grid.Column="6" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Mo" FontSize="25" BorderBrush="Black" Click="Molybdenum_Click"/>
+        <Button x:Name="Tungsten" Grid.Column="6" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="W" FontSize="30" BorderBrush="Black" Click="Tungsten_Click"/>
+        <Button x:Name="Seaborgium" Grid.Column="6" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sg" FontSize="30" BorderBrush="Black" Click="Seaborgium_Click"/>
+        <Button x:Name="Neodymium" Grid.Column="6" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Nd" FontSize="28" BorderBrush="Red" Click="Neodymium_Click" />
+        <Button x:Name="Uranium" Grid.Column="6" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="U" FontSize="30" BorderBrush="Blue" Click="Uranium_Click"/>
+
+
+        <Button x:Name="Manganese" Grid.Column="7" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Mn" FontSize="30" BorderBrush="Black" Click="Manganese_Click"/>
+        <Button x:Name="Technetium" Grid.Column="7" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Tc" FontSize="30" BorderBrush="Black" Click="Technetium_Click"/>
+        <Button x:Name="Rhenium" Grid.Column="7" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Re" FontSize="30" BorderBrush="Black" Click="Rhenium_Click"/>
+        <Button x:Name="Borhium" Grid.Column="7" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Bh" FontSize="30" BorderBrush="Black" Click="Borhium_Click"/>
+        <Button x:Name="Promethium" Grid.Column="7" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pm" FontSize="26" BorderBrush="Red" Click="Promethium_Click"/>
+        <Button x:Name="Neptunium" Grid.Column="7" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Np" FontSize="28" BorderBrush="Blue" Click="Neptunium_Click"/>
+
+
+        <Button x:Name="Iron" Grid.Column="8" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Fe" FontSize="30" BorderBrush="Black" Click="Iron_Click"/>
+        <Button x:Name="Ruthenium" Grid.Column="8" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ru" FontSize="30" BorderBrush="Black" Click="Ruthenium_Click"/>
+        <Button x:Name="Osmium" Grid.Column="8" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Os" FontSize="30" BorderBrush="Black" Click="Osmium_Click"/>
+        <Button x:Name="Hassium" Grid.Column="8" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Hs" FontSize="30" BorderBrush="Black" Click="Hassium_Click"/>
+        <Button x:Name="Samarium" Grid.Column="8" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sm" FontSize="27" BorderBrush="Red" Click="Samarium_Click"/>
+        <Button x:Name="Plutonium" Grid.Column="8" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pu" FontSize="30" BorderBrush="Blue" Click="Plutonium_Click"/>
+
+
+        <Button x:Name="Cobalt" Grid.Column="9" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Co" FontSize="30" BorderBrush="Black" Click="Cobalt_Click"/>
+        <Button x:Name="Rhodium" Grid.Column="9" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Rh" FontSize="30" BorderBrush="Black" Click="Rhodium_Click"/>
+        <Button x:Name="Iridium" Grid.Column="9" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ir" FontSize="30" BorderBrush="Black" Click="Iridium_Click"/>
+        <Button x:Name="Meitnerium" Grid.Column="9" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Mt" FontSize="30" BorderBrush="Black" Click="Meitnerium_Click"/>
+        <Button x:Name="Europium" Grid.Column="9" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Eu" FontSize="30" BorderBrush="Red" Click="Europium_Click"/>
+        <Button x:Name="Americium" Grid.Column="9" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Am" FontSize="25" BorderBrush="Blue" Click="Americium_Click"/>
+
+        <Button x:Name="Nickel" Grid.Column="10" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ni" FontSize="30" BorderBrush="Black" Click="Nickel_Click" />
+        <Button x:Name="Palladium" Grid.Column="10" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pd" FontSize="30" BorderBrush="Black" Click="Palladium_Click" />
+        <Button x:Name="Platinum" Grid.Column="10" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pt" FontSize="30" BorderBrush="Black" Click="Platinum_Click"/>
+        <Button x:Name="Darmstadtium" Grid.Column="10" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ds" FontSize="30" BorderBrush="Black" Click="Darmstadtium_Click"/>
+        <Button x:Name="Gadolinium" Grid.Column="10" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Gd" FontSize="30" BorderBrush="Red" Click="Gadolinium_Click"/>
+        <Button x:Name="Curium" Grid.Column="10" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cm" FontSize="30" BorderBrush="Blue" Click="Curium_Click"/>
+
+        <Button x:Name="Copper" Grid.Column="11" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cu" FontSize="30" BorderBrush="Black" Click="Copper_Click"/>
+        <Button x:Name="Silver" Grid.Column="11" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ag" FontSize="30" BorderBrush="Black" Click="Silver_Click"/>
+        <Button x:Name="Gold" Grid.Column="11" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Au" FontSize="30" BorderBrush="Black" Click="Gold_Click"/>
+        <Button x:Name="Roentgemium" Grid.Column="11" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Rg" FontSize="30" BorderBrush="Black" Click="Roentgemium_Click"/>
+        <Button x:Name="Terbium" Grid.Column="11" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Tb" FontSize="30" BorderBrush="Red" Click="Terbium_Click"/>
+        <Button x:Name="Berkelium" Grid.Column="11" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Bk" FontSize="30" BorderBrush="Blue" Click="Berkelium_Click"/>
+
+
+        <Button x:Name="Zinc" Grid.Column="12" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Zn" FontSize="30" BorderBrush="Black" Click="Zinc_Click"/>
+        <Button x:Name="Cadmium" Grid.Column="12" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cd" FontSize="30" BorderBrush="Black" Click="Cadmium_Click"/>
+        <Button x:Name="Mercury" Grid.Column="12" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Hg" FontSize="29" BorderBrush="Black" Click="Mercury_Click"/>
+        <Button x:Name="Copernicium" Grid.Column="12" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cn" FontSize="30" BorderBrush="Black" Click="Copernicium_Click"/>
+        <Button x:Name="Dysprosium"  Grid.Column="12" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Dy" FontSize="30" BorderBrush="Red" Click="Dysprosium_Click"/>
+        <Button x:Name="Californium" Grid.Column="12" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cf" FontSize="30" BorderBrush="Blue" Click="Californium_Click"/>
+
+
+        <Button x:Name="Boron" Grid.Column="13" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="B" FontSize="30" BorderBrush="Black" Click="Boron_Click"/>
+        <Button x:Name="Aluminium" Grid.Column="13" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Al" FontSize="30" BorderBrush="Black" Click="Aluminium_Click"/>
+        <Button x:Name="Gallium" Grid.Column="13" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ga" FontSize="30" BorderBrush="Black" Click="Gallium_Click" />
+        <Button x:Name="Indium" Grid.Column="13" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="In" FontSize="30" BorderBrush="Black" Click="Indium_Click"/>
+        <Button x:Name="Thallium" Grid.Column="13" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ti" FontSize="30" BorderBrush="Black" Click="Thallium_Click"/>
+        <Button x:Name="Nihonium" Grid.Column="13" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Nh" FontSize="28" BorderBrush="Black" Click="Nihonium_Click"/>
+        <Button x:Name="Holmium" Grid.Column="13" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ho" FontSize="30" BorderBrush="Red" Click="Holmium_Click"/>
+        <Button x:Name="Einsteinium" Grid.Column="13" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Es" FontSize="30" BorderBrush="Blue" Click="Einsteinium_Click"/>
+
+
+        <Button x:Name="Carbon" Grid.Column="14" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="C" FontSize="30" BorderBrush="Black" Click="Carbon_Click"/>
+        <Button x:Name="Silicon" Grid.Column="14" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Si" FontSize="30" BorderBrush="Black" Click="Silicon_Click"/>
+        <Button x:Name="Germanium" Grid.Column="14" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ge" FontSize="30" BorderBrush="Black" Click="Germanium_Click"/>
+        <Button x:Name="Tin" Grid.Column="14" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sn" FontSize="30" BorderBrush="Black" Click="Tin_Click"/>
+        <Button x:Name="Lead" Grid.Column="14" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Pb" FontSize="30" BorderBrush="Black" Click="Lead_Click"/>
+        <Button x:Name="Flerovium" Grid.Column="14" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Fl" FontSize="30" BorderBrush="Black" Click="Flerovium_Click"/>
+        <Button x:Name="Erbium" Grid.Column="14" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Er" FontSize="30" BorderBrush="Red" Click="Erbium_Click"/>
+        <Button x:Name="Fermium" Grid.Column="14" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Fm" FontSize="28" BorderBrush="Blue" Click="Fermium_Click"/>
+
+
+        <Button x:Name="Nitrogen" Grid.Column="15" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="N" FontSize="30" BorderBrush="Black" Click="Nitrogen_Click"/>
+        <Button x:Name="Phosphorus" Grid.Column="15" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="P" FontSize="30" BorderBrush="Black" Click="Phosphorus_Click"/>
+        <Button x:Name="Arsenic" Grid.Column="15" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="As" FontSize="30" BorderBrush="Black" Click="Arsenic_Click"/>
+        <Button x:Name="Antimony" Grid.Column="15" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Sb" FontSize="30" BorderBrush="Black" Click="Antimony_Click" />
+        <Button x:Name="Bismuth" Grid.Column="15" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Bi" FontSize="30" BorderBrush="Black" Click="Bismuth_Click"/>
+        <Button x:Name="Moscovium" Grid.Column="15" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Mc" FontSize="27" BorderBrush="Black" Click="Moscovium_Click"/>
+        <Button x:Name="Thulium" Grid.Column="15" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Tm" FontSize="28" BorderBrush="Red" Click="Thulium_Click"/>
+        <Button x:Name="Mendelevium" Grid.Column="15" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Md" FontSize="25" BorderBrush="Blue" Click="Mendelevium_Click"/>
+
+        <Button x:Name="Oxygen" Grid.Column="16" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="O" FontSize="30" BorderBrush="Black" Click="Oxygen_Click"/>
+        <Button x:Name="Sulfur" Grid.Column="16" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="S" FontSize="30" BorderBrush="Black" Click="Sulfur_Click"/>
+        <Button x:Name="Selenium" Grid.Column="16" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Se" FontSize="30" BorderBrush="Black" Click="Selenium_Click"/>
+        <Button x:Name="Tellurium" Grid.Column="16" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Te" FontSize="30" BorderBrush="Black" Click="Tellurium_Click"/>
+        <Button x:Name="Polonium" Grid.Column="16" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Po" FontSize="30" BorderBrush="Black" Click="Polonium_Click"/>
+        <Button x:Name="Livermorium" Grid.Column="16" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Lv" FontSize="30" BorderBrush="Black" Click="Livermorium_Click"/>
+        <Button x:Name="Yetterbium" Grid.Column="16" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Yb" FontSize="30" BorderBrush="Red" Click="Yetterbium_Click"/>
+        <Button x:Name="Nobelium" Grid.Column="16" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="No" FontSize="28" BorderBrush="Blue" Click="Nobelium_Click"/>
+
+        <Button x:Name="Fluorine" Grid.Column="17" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="F" FontSize="30" BorderBrush="Black" Click="Fluorine_Click"/>
+        <Button x:Name="Chlorine" Grid.Column="17" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Cl" FontSize="30" BorderBrush="Black" Click="Chlorine_Click"/>
+        <Button x:Name="Bromine" Grid.Column="17" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Br" FontSize="30" BorderBrush="Black" Click="Bromine_Click"/>
+        <Button x:Name="Iodine" Grid.Column="17" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="I" FontSize="30" BorderBrush="Black" Click="Iodine_Click"/>
+        <Button x:Name="Astatine" Grid.Column="17" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="At" FontSize="30" BorderBrush="Black" Click="Astatine_Click"/>
+        <Button x:Name="Tennessine" Grid.Column="17" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ts" FontSize="30" BorderBrush="Black" Click="Tennessine_Click"/>
+
+        <Button x:Name="Helium" Grid.Column="18" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="He" FontSize="30" BorderBrush="Black" Click="Helium_Click"/>
+        <Button x:Name="Neon"  Grid.Column="18" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ne" FontSize="30" BorderBrush="Black" Click="Neon_Click"/>
+        <Button x:Name="Argon" Grid.Column="18" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Ar" FontSize="30" BorderBrush="Black" Click="Argon_Click"/>
+        <Button x:Name="Krypton" Grid.Column="18" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Kr" FontSize="30" BorderBrush="Black" Click="Krypton_Click"/>
+        <Button x:Name="Xenon" Grid.Column="18" Grid.Row="4"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Xe" FontSize="30" BorderBrush="Black" Click="Xenon_Click"/>
+        <Button x:Name="Radon" Grid.Column="18" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Rn" FontSize="30" BorderBrush="Black" Click="Radon_Click"/>
+        <Button x:Name="Oganesson" Grid.Column="18" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Height="72" Width="56" Content="Og" FontSize="28" BorderBrush="Black" Click="Oganesson_Click"/>
+
+        <Button x:Name="Exit" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="227" Content="EXIT" FontSize="30" Margin="0,0,0,0" Click="Exit_Click" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Page>
